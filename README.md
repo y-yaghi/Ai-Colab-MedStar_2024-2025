@@ -2,7 +2,7 @@
 
 ## Internship Experience at MedStar Health AI CoLab
 
-**Goal:***
+**Goal:**
 Apply machine learning to clinical datasets to investigate maternal and cardiometabolic health outcomes, with an emphasis on health disparities and predictive modeling.
 
 **Projects Overview**
