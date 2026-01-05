@@ -2,10 +2,53 @@
 
 ## Internship Experience at MedStar Health AI CoLab
 
-During the summers of 2024 and 2025, I interned at MedStar Health’s AI CoLab, an interdisciplinary research program focused on applying artificial intelligence and machine learning to biomedical and healthcare challenges. These internships provided me with hands-on experience in working with large, complex medical datasets, developing predictive models, and collaborating with healthcare professionals and data scientists to address pressing health problems.
+**Goal:***
+Apply machine learning to clinical datasets to investigate maternal and cardiometabolic health outcomes, with an emphasis on health disparities and predictive modeling.
 
-In 2024, my projects focused on maternal and cardiovascular health. I investigated associations between systemic lupus erythematosus (SLE) markers and clinical outcomes, explored how social determinants of health influence maternal risk, and developed a machine learning model to examine the relationship between family history of cardiometabolic disease and preeclampsia incidence. Using Python and libraries such as pandas, scikit-learn, and matplotlib, I performed data cleaning, exploratory data analysis, predictive modeling, and visualization. These projects deepened my technical expertise while highlighting the potential of AI to uncover health disparities and inform patient care
+**Projects Overview**
+This repository contains multiple research projects completed during my internships at MedStar Health’s AI CoLab.
 
-In 2025, I expanded this work by studying the relationship between kidney function, β-cell dysfunction, and type 2 diabetes using NHANES data. My group built and compared models including Random Forest, XGBoost, and LightGBM, with Random Forest achieving the best performance (R² = 0.85). We identified renal biomarkers (eGFR, BUN), albumin-to-creatinine ratio, age, and socioeconomic status as critical predictors of β-cell dysfunction. Alongside the group project, I also developed interactive Jupyter Notebook materials for an AI/biostatistics summer workshop, enabling students to practice data preprocessing, EDA, and feature engineering
+Focus areas include:
+- Maternal and cardiovascular health
+- Preeclampsia risk factors
+- Kidney function and β-cell dysfunction
+- Type 2 diabetes prediction
 
-Across both internships, I strengthened my skills in machine learning, statistical modeling, and data visualization, while also gaining valuable experience in research writing, collaboration, and presentation. These experiences not only reinforced my passion for healthcare data science but also sharpened my ability to translate technical findings into insights with clinical and social impact.
+**Data**
+- **Sources:** Clinical datasets and NHANES
+- **Features:** Demographics, biomarkers (eGFR, BUN), socioeconomic indicators, family history
+- **Challenges:** Missing data, class imbalance, feature correlation
+
+**Methods**
+- Models:
+    - Logistic Regression
+    - Random Forest
+    - XGBoost
+    - LightGBM
+
+- Techniques:
+    - Data cleaning & preprocessing
+    - Feature engineering
+    - Model comparison
+    - Performance evaluation (R², feature importance)
+
+**Key Results**
+- Best model: Random Forest
+- Performance: R² = 0.85
+- Important predictors:
+    - eGFR
+    - BUN
+    - Albumin-to-creatinine ratio
+    - Age
+
+**Socioeconomic status**
+- Tools & Technologies
+    - Python (pandas, NumPy, scikit-learn)
+    - matplotlib / seaborn
+    - Jupyter Notebook
+
+**Limitations & Future Work**
+- Expand subgroup bias analysis
+- External dataset validation
+
+Explore calibration and interpretability methods (e.g., SHAP)
